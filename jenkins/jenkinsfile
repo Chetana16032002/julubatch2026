@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+        // Install the Maven tool configured as 'M3' in Jenkins
+        maven 'M3'
+    }
 
     stages {
         stage('Build') {
