@@ -63,3 +63,5 @@ your playbook should check if the target machine os is windows then install the 
 if your target machine os is linux then install the java version as 17
 
 2. check if my public ip address is frequently changing then what are the alternate ways and try to implement the dynamic ip address concept
+
+3. try to study about ansible tower and awx
